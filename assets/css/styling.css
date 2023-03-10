@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "adventure";
+    src: url("/assets/fonts/adventure-font/Adventure-YGZ2.ttf");
+}
+h1 {
+    font-family: adventure;
+}
+
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.53);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content h1 {
+    font-weight: 600;
+  }
+  #text-wrapper {
+    width: 70%;
+  }
+
+  #title{
+    color:white;
+    font-size: 5rem;
+    margin-bottom: 0cm;
+  }
+  #text-wrapper p{
+    color:rgb(208, 208, 208);
+  }
+
+  #button-1, #button-2{
+    background-color: rgb(77, 137, 255);
+    height: 2.5rem;
+    width:6rem;
+    border:none;
+    font-size: 1rem;
+    margin:5px;
+    color:white;
+
+  }
