@@ -3,7 +3,7 @@
 
 
 .overlay {
-    background-color: rgba(0, 0, 0, 0.53);
+    background-color: rgba(0, 0, 0, 0.368);
     height: 100%;
     display: flex;
     justify-content: center;
@@ -69,4 +69,7 @@
         height: 1.8rem;
         font-size: 1rem;
     }
+    #text-wrapper {
+        width: 90%;
+      }
   }
