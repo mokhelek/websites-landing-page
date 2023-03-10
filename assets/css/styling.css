@@ -1,10 +1,5 @@
-@font-face {
-    font-family: "adventure";
-    src: url("/assets/fonts/adventure-font/Adventure-YGZ2.ttf");
-}
-h1 {
-    font-family: adventure;
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 
 .overlay {
@@ -23,21 +18,30 @@ h1 {
   }
 
   #title{
+
+
+    background: linear-gradient(to right, rgb(232, 232, 255) 20%, rgb(255, 210, 12) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ 
     color:white;
     font-size: 5rem;
     margin-bottom: 0cm;
   }
   #text-wrapper p{
-    color:rgb(208, 208, 208);
+    color:rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
   }
 
   #button-1, #button-2{
-    background-color: rgb(77, 137, 255);
+    background-color: rgb(253, 202, 62);
     height: 2.5rem;
-    width:6rem;
+    width:8rem;
     border:none;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin:5px;
-    color:white;
+    color:rgb(51, 51, 51);
+    border-radius: 20px;
+    cursor: pointer;
 
   }
